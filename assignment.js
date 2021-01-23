@@ -67,16 +67,13 @@ console.log(totalCost);   // output is 21000 cost for 25days.
 //megaFriend function start
 function megaFriend(array) {
     var longestWord = "";
-
     array.forEach(function (word) {
         if (word.length > longestWord.length) {
             longestWord = word;
         }
     });
-
     return longestWord;
 }
-
 var word = megaFriend(["richard", "rebeca", "russell", "mark zibing", "richard armond"]);
 console.log(word); // output is "richard armond"
 
