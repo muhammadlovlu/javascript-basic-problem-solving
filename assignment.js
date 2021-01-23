@@ -1,4 +1,5 @@
-// code link 
+// https://github.com/muhammadlovlu/javascript-basic-problem-solving
+
 //kilometer to meter start
 function kilometerToMeter(kilometer) {
     var result = kilometer * 1000;
